@@ -10,9 +10,9 @@ const Lgth = () => {
       {/* Sawirada */}
       <div className="flex justify-center">
         {isOn ? (
-          <img src="./src/assets/on.png" alt="On" width="200px" />
+          <img src="./src/assets/1.png" alt="On" width="200px" />
         ) : (
-          <img src="./src/assets/of.png" alt="Off" width="180px" />
+          <img src="./src/assets/2.png" alt="Off" width="180px" />
         )}
       </div>
 

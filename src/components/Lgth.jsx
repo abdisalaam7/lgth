@@ -1,6 +1,7 @@
 import { useState } from "react";
 
 
+
 const Lgth = () => {
     
   const [isOn, setIsOn] = useState(false); // Xaaladda toggle-ka (On/Off)
@@ -10,9 +11,9 @@ const Lgth = () => {
       {/* Sawirada */}
       <div className="flex justify-center">
         {isOn ? (
-          <img src="./src/assets/1.png" alt="On" width="200px" />
+          <img src="./assets/1.png" alt="On" width="200px" />
         ) : (
-          <img src="./src/assets/2.png" alt="Off" width="180px" />
+          <img src="./assets/2.png" alt="Off" width="180px" />
         )}
       </div>
 
